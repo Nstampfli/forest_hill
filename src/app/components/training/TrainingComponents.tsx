@@ -17,7 +17,7 @@ type TrainingListProps = {
 
 export function TrainingList({ trainings, onDeleteTraining }: TrainingListProps) {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto w-full">
       <table className="min-w-full divide-y divide-gray-200">
         <thead>
           <tr>

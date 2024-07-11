@@ -58,7 +58,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
             value={type}
             onChange={(e) => setType(e.target.value)}
             required
-            className="p-2 border rounded-lg w-full"
+            className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
           />
         </div>
         <div>
@@ -68,7 +68,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
             value={date}
             onChange={(e) => setDate(e.target.value)}
             required
-            className="p-2 border rounded-lg w-full"
+            className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
           />
         </div>
       </div>
@@ -81,7 +81,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
             value={duration}
             onChange={(e) => setDuration(parseInt(e.target.value))}
             required
-            className="p-2 border rounded-lg w-full"
+            className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
           />
         </div>
         <div>
@@ -92,7 +92,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
             value={calories}
             onChange={(e) => setCalories(parseInt(e.target.value))}
             required
-            className="p-2 border rounded-lg w-full"
+            className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
           />
         </div>
       </div>
@@ -103,7 +103,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
             value={intensity}
             onChange={(e) => setIntensity(e.target.value)}
             required
-            className="p-2 border rounded-lg w-full"
+            className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
           >
             <option value="">Sélectionnez une intensité</option>
             <option value="Faible">Faible</option>
@@ -119,7 +119,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
             value={goal}
             onChange={(e) => setGoal(e.target.value)}
             required
-            className="p-2 border rounded-lg w-full"
+            className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
           />
         </div>
       </div>
@@ -129,7 +129,7 @@ const TrainingForm: React.FC<TrainingFormProps> = ({ onSave }) => {
           placeholder="Notes"
           value={notes}
           onChange={(e) => setNotes(e.target.value)}
-          className="p-2 border rounded-lg w-full"
+          className="p-2 border rounded-lg w-full bg-white text-black dark:bg-white dark:text-black"
         />
       </div>
       <div className="flex justify-end">

@@ -5,8 +5,7 @@ const chatGPTRequest = async (prompt: string) => {
     'https://api.openai.com/v1/chat/completions',
     {
       model: 'gpt-3.5-turbo-0125',
-      messages: [{ role: 'user', content: `Tu es un conseiller sportif professionnel. Tu es un chatbot du dashboard client de Forest Hill. Tu parles à un utilisateur. Voici sa question: "${prompt}". Réponds-y précisément mais de façon courte et concise car tu es dans un chatbot.` }],
-      max_tokens: 100,
+      messages: [{ role: 'user', content: `Tu es un conseiller sportif professionnel. Tu es un chatbot du dashboard client de Forest Hill. Tu parles à un utilisateur. Voici sa question: "${prompt}". Réponds-y précisément mais de façon courte et concise car tu es dans un chatbot, 100 caractères maximum et met y de la formes.` }],
     },
     {
       headers: {
