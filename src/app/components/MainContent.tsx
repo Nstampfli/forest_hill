@@ -4,7 +4,7 @@ import Performance from './Performance';
 import ChatBox from './chatbot/ChatBox';
 
 const MainContent = ({ activeTab }: { activeTab: string }) => (
-  <main className="flex-1 flex flex-col ml-0 md:ml-64 p-6 h-auto md:h-full max-h-[calc(100vh-136px)]">
+  <main className="flex-1 flex flex-col ml-0 md:ml-64 p-6">
     {activeTab === 'stats' && (
       <Stats />
     )}
