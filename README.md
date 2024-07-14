@@ -1,8 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
+:warning::warning::warning:
 > :warning: **Create .env.local file in the project root**: and add NEXT_PUBLIC_OPENIA_KEY key bind with OPENAI API key !
+:warning::warning::warning:
 
 ```bash
 npm i
