@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+> :warning: **Create .env.local file in the project root**: and add NEXT_PUBLIC_OPENIA_KEY key bind with OPENAI API key !
+
+```bash
+npm i
+```
+
 First, run the development server:
 
 ```bash
