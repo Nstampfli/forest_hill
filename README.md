@@ -3,6 +3,7 @@
 
 :warning::warning::warning:
 > :warning: **Create .env.local file in the project root**: and add NEXT_PUBLIC_OPENIA_KEY key bind with OPENAI API key !
+
 :warning::warning::warning:
 
 ```bash
